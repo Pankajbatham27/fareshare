@@ -40,8 +40,8 @@ const Booking = () => {
         onSelect={handleSelect}
       >
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
-          <div >
-            <div className={classes.inputGroup}>
+          <div>
+            <div key={suggestions.description} className={classes.inputGroup}>
               <input
                 value={addressPickup}
                 {...getInputProps({
@@ -88,7 +88,7 @@ const Booking = () => {
       >
         {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
           <div>
-            <div className={classes.inputGroup}>
+            <div key={suggestions.description} className={classes.inputGroup}>
               <input
                 value={addressDrop}
                 {...getInputProps({
