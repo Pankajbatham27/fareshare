@@ -18,16 +18,16 @@ const Booking = () => {
     lng:null
   });
 
-  const handleSelect = async (address) => {
-    const result = await geocodeByAddress(address);
-    const coordinatesResult = await getLatLng(result[0]);
+  const handleSelect = (address) => {
+    const result = geocodeByAddress(address);
+    const coordinatesResult = getLatLng(result[0]);
     setAddressPickup(address);
     setCoordinates(coordinatesResult);
   };
 
-  const handleSelectDrop = async (address) => {
-    const result = await geocodeByAddress(address);
-    const coordinatesResult = await getLatLng(result[0]);
+  const handleSelectDrop = (address) => {
+    const result = geocodeByAddress(address);
+    const coordinatesResult = getLatLng(result[0]);
     setAddressDrop(address);
     setCoordinatesDrop(coordinatesResult);
   };
