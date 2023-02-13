@@ -8,9 +8,9 @@ import Head from "next/head";
 const Header = () => {
   const router = useRouter();
 
-  // const DynamicHeader = dynamic(() => import("./Boostrapjs"), {
-  //   ssr: false,
-  // });
+  const DynamicHeader = dynamic(() => import("./Boostrapjs"), {
+    ssr: false,
+  });
 
 
 
@@ -24,7 +24,7 @@ const Header = () => {
           rel="stylesheet"
         />
 
-        {/* <DynamicHeader /> */}
+        <DynamicHeader />
         
       </Head>
       <header>
