@@ -1,0 +1,24 @@
+{
+  "name": "him",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "next": "13.1.1",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-simple-image-slider": "^2.4.1"
+  }
+}

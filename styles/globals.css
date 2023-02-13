@@ -1,0 +1,39 @@
+a{
+    text-decoration: none !important;
+}
+h2.heading {
+    /* text-align: center; */
+    font-weight: 500;
+    color: #ffcc00;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.yellow-color{
+    background-color: #ffcc00;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-section h1 {
+    font-size: 60px;
+}
+.hero-section h3{
+    color: #556a7f;
+    font-size: 40px;
+}
+
+.woman{
+    max-width: 200px !important;
+    position: absolute;
+    right: 137px;
+    bottom: 0;
+}
+.hero_cover{
+    position: relative;
+    border-bottom: 3px solid #000;
+}
+
+

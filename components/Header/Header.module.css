@@ -1,0 +1,43 @@
+.topNav li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.topNav li:not(:last-child) {
+    margin-right: 21px;
+    position: relative;
+}
+.padding4{
+    padding: 4px;
+}
+.topNav li:not(:last-child)::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #ababab;
+    position: absolute;
+    right: -12px;
+}
+.topNav {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.headerMainText{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #2d308f;
+    margin-top: 3px;
+    font-weight: 700;
+    margin: 0;
+}
+.logoHeader {
+    max-height: 79px;
+}
+.bgBlack{
+    background-color: #000;
+}
