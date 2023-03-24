@@ -80,3 +80,14 @@ h1,h2,h3,h4,h5,h6{
     transform: translate(0%, -50%);
     z-index: -1;
 }
+
+.black-big-font{
+    font-size: 60px;
+    
+}
+.gray-big-font {
+    color: #556a7f;
+    font-size: 40px;
+}
+
+

@@ -28,7 +28,7 @@ export default function Home() {
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-12 text-center"></div>
-            <div className="col-md-6">
+            <div className="col-md-6 align-self-center">
               <div className="hero-section">
                 <h1>
                   Finally it is
@@ -60,6 +60,18 @@ export default function Home() {
                 transport and find it difficult to juggle their daily commute
                 with reaching the office on time. By connecting them, we help
                 them share the same route and become travel buddies.
+              </p>
+
+              <hr />
+              <h5>Who we are?</h5>
+              <p>
+                We are a team of problem-solvers from the tech and finance
+                industries, who grew up watching our mothers juggle daily
+                struggles such as reaching the office on time and managing
+                household chores. After relocating to a cold state and feeling
+                helpless ourselves, we came up with Fare Share - an idea to
+                provide a hassle-free office journey for all hard-working
+                individuals, including our beloved moms.
               </p>
             </div>
           </div>
