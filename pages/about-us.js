@@ -73,7 +73,46 @@ const About = () => {
           </p>
 
 
-          
+          <div class="container">
+		<h1>Travel Booking Process Flow</h1>
+		<div class="steps-wrapper">
+			<div class="step">
+				<div class="step-icon"><span>1</span></div>
+				<div class="step-content">
+					<h2>Enter Your Location and Select Your Ride</h2>
+					<p>Input your pickup and destination location, select your preferred mode of transportation and set your trip time.</p>
+				</div>
+			</div>
+			<div class="step">
+				<div class="step-icon"><span>2</span></div>
+				<div class="step-content">
+					<h2>Verify Your Mobile Number with OTP</h2>
+					<p>We will send an OTP to your mobile number for verification. Input the OTP to confirm your mobile number and create your account.</p>
+				</div>
+			</div>
+			<div class="step">
+				<div class="step-icon"><span>3</span></div>
+				<div class="step-content">
+					<h2>Find a Travel Buddy</h2>
+					<p>We will match you with other travelers who are headed in the same direction as you. Wait for a match or choose to travel alone.</p>
+				</div>
+			</div>
+			<div class="step">
+				<div class="step-icon"><span>4</span></div>
+				<div class="step-content">
+					<h2>Make an Advance Payment to Confirm Your Booking</h2>
+					<p>You can pay online using a credit/debit card, UPI or other payment methods available in your region to confirm your booking.</p>
+				</div>
+			</div>
+			<div class="step">
+				<div class="step-icon"><span>5</span></div>
+				<div class="step-content">
+					<h2>Enjoy Your Ride</h2>
+					<p>Your driver will arrive at your doorstep before your trip time. Hop on, sit back and enjoy the ride to your destination.</p>
+				</div>
+			</div>
+		</div>
+	</div>
         </div>
       </Body>
     </>
