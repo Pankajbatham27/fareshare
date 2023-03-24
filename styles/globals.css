@@ -36,4 +36,47 @@ h1,h2,h3,h4,h5,h6{
     border-bottom: 3px solid #000;
 }
 
+.process-flow ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    max-width: 64%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 73px;
+}
 
+.process-flow ul li {
+    background: #fff;
+    padding: 45px 24px;
+    margin: 0 63px;
+    box-shadow: 0px 12px 16px -10px #00000099;
+    border-radius: 8px;
+}
+
+.text-lime{
+    color: lime;
+}
+
+
+.background-drop{
+    background-image: linear-gradient(to top,#00ff003b, #fff);
+    padding: 90px 0;
+}
+
+
+.process-flow ul {
+    position: relative;
+}
+.process-flow ul::before {
+    content: "";
+    height: 2px;
+    background: #dfdfdf;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    z-index: -1;
+}

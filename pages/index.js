@@ -19,52 +19,88 @@ export default function Home() {
           rel="stylesheet"
         />
         {/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiqx0MaSS3QybaU4NH9iehcbro6r92nD8&libraries=places"></script> */}
-
       </Head>
 
       <Body>
-        {/* <div className='mt-5 mb-3 hero_cover'>
-          
-
-          <marquee direction="right" width="100%">
-            <img src={taxi_image.src} className="img-fluid" />
-          </marquee>
-
-          <img src={woman_image.src} className="img-fluid woman" />
-          </div> */}
         <Hero />
         <Booking />
-        {/* <Place /> */}
-        
+
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-12 text-center"></div>
             <div className="col-md-6">
               <div className="hero-section">
                 <h1>
-                  Holiday Cab
+                  Finally it is
                   <br />
-                  Booking
+                  easy!
                 </h1>
-                <p>
-                  EXPERIENCE THE MOST HASSLE
-                  <br /> FREE FLIGHT BOOKING
-                  <br />
-                  AND GET GREAT DEALS WITH
-                  <br /> REASONABLE RATES
-                </p>
+
                 <h3>
-                  Great Deals
-                  <br /> And Great Offers
+                  Make your office journey a panic -free experience with us.
                 </h3>
                 <p>
-                  <strong>
-                    with reasonable rates in top airlince and destinations
-                  </strong>
+                  <strong>with reasonable rates.</strong>
                 </p>
               </div>
             </div>
-            <div className="col-md-6"></div>
+            <div className="col-md-6">
+              <h5>What we do?</h5>
+              <p>
+                We make your daily commute pain-free. We provide a one-of-a-kind
+                fixed cab or auto booking service that is available at your
+                doorstep at the time of your choice, ensuring your comfort and
+                affordability. Our prices are really affordable.
+              </p>
+              <hr />
+              <h5>How we do it?</h5>
+              <p>
+                We help you find people to share a ride with. We bring together
+                passengers who are travelling on the same route using public
+                transport and find it difficult to juggle their daily commute
+                with reaching the office on time. By connecting them, we help
+                them share the same route and become travel buddies.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-5 background-drop">
+          <div className="text-center">
+            <h5 className="text-lime">How it works</h5>
+            <h3>
+              Easy steps to apply
+              <br />
+              for Government Schemes
+            </h3>
+          </div>
+
+          <div className="process-flow">
+            <ul>
+              <li>
+                <img src="https://cdn.myscheme.in/images/icons/check.svg" />
+                <h5>Enter Details</h5>
+                <p>
+                  Start by entering your <b>basic details!</b>
+                </p>
+              </li>
+
+              <li>
+                <img src="https://cdn.myscheme.in/images/icons/check.svg" />
+                <h5>Enter Details</h5>
+                <p>
+                  Start by entering your <b>basic details!</b>
+                </p>
+              </li>
+
+              <li>
+                <img src="https://cdn.myscheme.in/images/icons/check.svg" />
+                <h5>Enter Details</h5>
+                <p>
+                  Start by entering your <b>basic details!</b>
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </Body>

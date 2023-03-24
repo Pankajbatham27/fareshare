@@ -63,7 +63,7 @@ const Booking = () => {
                   })}
                 />
               </div>
-              <p>Lat: <span>{coordinates.lat}</span> &nbsp; Long: <span>{coordinates.lng}</span></p>
+              {/* <p>Lat: <span>{coordinates.lat}</span> &nbsp; Long: <span>{coordinates.lng}</span></p> */}
 
               <div className="autocomplete-dropdown-container">
                 {loading && <div>Loading...</div>}
@@ -111,7 +111,7 @@ const Booking = () => {
                   })}
                 />
               </div>
-              <p>Lat: <span>{coordinatesDrop.lat}</span> &nbsp; Long: <span>{coordinatesDrop.lng}</span></p>
+              {/* <p>Lat: <span>{coordinatesDrop.lat}</span> &nbsp; Long: <span>{coordinatesDrop.lng}</span></p> */}
 
               <div className="autocomplete-dropdown-container">
                 {loading && <div>Loading...</div>}
