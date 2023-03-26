@@ -79,7 +79,7 @@ export default function Home() {
 
         <div className="mt-5 background-drop">
           <div className="text-center">
-            <h5 className="text-lime">How it works</h5>
+            <h5 className="text-gray">How it works</h5>
             <h3>
               Easy steps to apply
               <br />
@@ -113,6 +113,57 @@ export default function Home() {
                 </p>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="container mt-5 whyRide">
+          <h3 className="mb-5">Why ride with FareShare</h3>
+
+          <div className="row">
+            <div className="col-md-6">
+              <div>
+                <h6>
+                  <i className="fa fa-home"></i> Get doorstep pickup
+                </h6>
+                <p>
+                  Gone are the days when you had to search for transportation on
+                  the streets. With a simple tap of a button, you can now find a
+                  ride waiting for you right at your doorstep.
+                </p>
+              </div>
+
+              <div>
+                <h6>
+                  <i className="fa fa-home"></i> Get doorstep pickup
+                </h6>
+                <p>
+                  No need to go looking for an auto on the streets. Find a ride
+                  at your doorstep at the tap of a button.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div>
+                <h6>
+                  <i className="fa fa-home"></i> Get doorstep pickup
+                </h6>
+                <p>
+                  No need to go looking for an auto on the streets. Find a ride
+                  at your doorstep at the tap of a button.
+                </p>
+              </div>
+
+              <div>
+                <h6>
+                  <i className="fa fa-home"></i> Get doorstep pickup
+                </h6>
+                <p>
+                  No need to go looking for an auto on the streets. Find a ride
+                  at your doorstep at the tap of a button.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </Body>

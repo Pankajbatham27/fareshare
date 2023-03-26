@@ -55,14 +55,16 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 8px;
 }
 
-.text-lime{
-    color: lime;
+.text-gray{
+    color: #878787;
 }
 
 
 .background-drop{
-    background-image: linear-gradient(to top,#00ff003b, #fff);
+    background-image: linear-gradient(to top,#0000001c, #fff);
     padding: 90px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+    padding-bottom: 145px;
 }
 
 
@@ -72,7 +74,7 @@ h1,h2,h3,h4,h5,h6{
 .process-flow ul::before {
     content: "";
     height: 2px;
-    background: #dfdfdf;
+    background: #000000;
     position: absolute;
     left: 10%;
     right: 10%;
@@ -138,4 +140,14 @@ h1,h2,h3,h4,h5,h6{
 
 .steps-wrapper .step:hover {
     top: -5px;
+}
+
+.whyRide h6 i {
+    font-size: 37px;
+}
+
+.whyRide .col-md-6 > div {
+    width: 500px;
+    max-width: 100%;
+    padding: 18px 0;
 }
