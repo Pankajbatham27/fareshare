@@ -86,41 +86,6 @@ const Header = () => {
                       </Link>
                     </li>
 
-                    <li>
-                      <Link href="/services">
-                        <a
-                          className={`${"nav-link"} ${
-                            router.pathname == "/services" ? "active" : ""
-                          }`}
-                        >
-                          Services
-                        </a>
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href="/resource">
-                        <a
-                          className={`${"nav-link"} ${
-                            router.pathname == "/resource" ? "active" : ""
-                          }`}
-                        >
-                          Resource
-                        </a>
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link href="/faq">
-                        <a
-                          className={`${"nav-link"} ${
-                            router.pathname == "/faq" ? "active" : ""
-                          }`}
-                        >
-                          FAQs
-                        </a>
-                      </Link>
-                    </li>
 
                     <li>
                       <Link href="/contact">

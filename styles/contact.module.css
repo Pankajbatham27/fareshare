@@ -1,0 +1,32 @@
+.grayBigText {
+    color: #556a7f;
+    font-size: 40px;
+}
+.contactInfo > div {
+    height: 30px;
+    width: 30px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 13px;
+}
+
+.contactInfo {
+    display: flex;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.fontChange{
+    font-size: 30px;
+    text-align: justify;
+}
+.contactRightImage{
+    filter: grayscale(1);
+}
+.contactRightImage:hover{
+    filter: grayscale(0);
+}

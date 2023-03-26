@@ -7,11 +7,11 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <p className={`mb-0 text-white ${classes.m_text_center}`}>Copyright ©Office. All Rights Reserved</p>
+                            <p className={`mb-0 text-white ${classes.m_text_center}`}>Copyright ©FareShare. All Rights Reserved</p>
                         </div>
-                        <div className="col-md-6">
+                        {/* <div className="col-md-6">
                             <p className={`mb-0 text-white text-end ${classes.m_text_center}`}>Designed & developed by Office</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

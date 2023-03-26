@@ -1,6 +1,7 @@
-a{
+a {
     text-decoration: none !important;
 }
+
 h2.heading {
     /* text-align: center; */
     font-weight: 500;
@@ -10,28 +11,36 @@ h2.heading {
 }
 
 
-.yellow-color{
+.yellow-color {
     background-color: #ffcc00;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .hero-section h1 {
     font-size: 60px;
 }
-.hero-section h3{
+
+.hero-section h3 {
     color: #556a7f;
     font-size: 40px;
 }
 
-.woman{
+.woman {
     max-width: 200px !important;
     position: absolute;
     right: 137px;
     bottom: 0;
 }
-.hero_cover{
+
+.hero_cover {
     position: relative;
     border-bottom: 3px solid #000;
 }
@@ -49,19 +58,26 @@ h1,h2,h3,h4,h5,h6{
 
 .process-flow ul li {
     background: #fff;
-    padding: 45px 24px;
     margin: 0 63px;
     box-shadow: 0px 12px 16px -10px #00000099;
     border-radius: 8px;
 }
 
-.text-gray{
+.process-flow p {
+    font-size: 14px;
+}
+
+.process-flow ul li {
+    padding: 29px 24px 17px;
+}
+
+.text-gray {
     color: #878787;
 }
 
 
-.background-drop{
-    background-image: linear-gradient(to top,#0000001c, #fff);
+.background-drop {
+    background-image: linear-gradient(to top, #0000001c, #fff);
     padding: 90px 0;
     clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
     padding-bottom: 145px;
@@ -71,6 +87,7 @@ h1,h2,h3,h4,h5,h6{
 .process-flow ul {
     position: relative;
 }
+
 .process-flow ul::before {
     content: "";
     height: 2px;
@@ -83,10 +100,11 @@ h1,h2,h3,h4,h5,h6{
     z-index: -1;
 }
 
-.black-big-font{
+.black-big-font {
     font-size: 60px;
-    
+
 }
+
 .gray-big-font {
     color: #556a7f;
     font-size: 40px;
@@ -146,8 +164,32 @@ h1,h2,h3,h4,h5,h6{
     font-size: 37px;
 }
 
-.whyRide .col-md-6 > div {
+.whyRide .col-md-6>div {
     width: 500px;
     max-width: 100%;
     padding: 18px 0;
+}
+
+.keyPoins {
+    margin-bottom: 30px;
+}
+
+.process-flow i {
+    color: #556a7f;
+    font-size: 22px;
+}
+
+.keyPoins h6 i {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .process-flow ul {
+        display: initial;
+    }
+
+    .process-flow ul li {
+        margin-bottom: 30px;
+    }
 }
