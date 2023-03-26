@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact Fare Share: We're Here to Help</title>
-        <meta name="description" content="Have a question or need assistance with our service? Our friendly customer support team is here to help. Get in touch with us via phone, email, or our online contact form, and we'll be happy to assist you. At Fare Share, we're committed to providing you with the best possible commuting experience." />
+        <title>Contact Fare Share: We&apos;re Here to Help</title>
+        <meta name="description" content="Have a question or need assistance with our service? Our friendly customer support team is here to help. Get in touch with us via phone, email, or our online contact form, and we&apos;ll be happy to assist you. At Fare Share, we&apos;re committed to providing you with the best possible commuting experience." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link

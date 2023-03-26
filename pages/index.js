@@ -97,7 +97,7 @@ export default function Home() {
                 <i className="fa fa-star mb-3"></i>
                 <h5>Stress-free rides</h5>
                 <p>
-                  Fare Share's stress-free rides ensure that commuters can relax and arrive at their destination on time.
+                  Fare Share&apos;s stress-free rides ensure that commuters can relax and arrive at their destination on time.
                 </p>
               </li>
 
@@ -123,7 +123,7 @@ export default function Home() {
                   Pay as you go
                 </h6>
                 <p>
-                  Pay-as-you-go: Fare Share's flexible payment system allows customers to pay only for the rides they use, with no monthly or subscription fees, making it an affordable and convenient option for daily commuting.
+                  Pay-as-you-go: Fare Share&apos;s flexible payment system allows customers to pay only for the rides they use, with no monthly or subscription fees, making it an affordable and convenient option for daily commuting.
                 </p>
               </div>
 
@@ -181,7 +181,7 @@ export default function Home() {
                   Doorstep Service
                 </h6>
                 <p>
-                  Doorstep service: We believe in providing a hassle-free commuting experience, which is why we offer doorstep pick-up and drop-off, so that customers don't have to worry about walking to or from the nearest pickup point.
+                  Doorstep service: We believe in providing a hassle-free commuting experience, which is why we offer doorstep pick-up and drop-off, so that customers don&apos;t have to worry about walking to or from the nearest pickup point.
                 </p>
               </div>
 
@@ -219,7 +219,7 @@ export default function Home() {
                   Alternate Transportation Arrangement
                 </h6>
                 <p>
-                  In case our auto doesn't arrive, we will provide you with cab facility as an alternate transportation arrangement.
+                  In case our auto doesn&apos;t arrive, we will provide you with cab facility as an alternate transportation arrangement.
                 </p>
               </div>
 
