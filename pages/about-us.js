@@ -29,7 +29,7 @@ const About = () => {
             doorstep. We understand that finding a reliable and affordable mode
             of transportation can be a daily struggle for many, which is why we
             strive to make your daily commute pain-free. Our prices are
-            affordable, so you don't have to break the bank to get to work on
+            affordable, so you don&apos;t have to break the bank to get to work on
             time.
           </p>
           <p>
@@ -54,7 +54,7 @@ const About = () => {
           </p>
           <p>
             We believe that everyone deserves a stress-free commute, and our
-            platform is designed to make that a reality. Whether you're a busy
+            platform is designed to make that a reality. Whether you&apos;re a busy
             professional, a student, or a stay-at-home parent, our fixed cab and
             auto booking service is here to make your life easier. Our team is
             dedicated to providing you with the best possible service, and we
@@ -65,7 +65,7 @@ const About = () => {
 
           <p>
             Additionally, we understand the importance of accessibility in
-            today's world, which is why we have developed both a responsive
+            today&apos;s world, which is why we have developed both a responsive
             website and a mobile app to make booking and sharing rides more
             convenient for you. Our commitment to providing a trusted and
             reliable service has earned us a loyal customer base who rely on us
@@ -73,46 +73,58 @@ const About = () => {
           </p>
 
 
-          <div class="container">
-		<h1>Travel Booking Process Flow</h1>
-		<div class="steps-wrapper">
-			<div class="step">
-				<div class="step-icon"><span>1</span></div>
-				<div class="step-content">
-					<h2>Enter Your Location and Select Your Ride</h2>
-					<p>Input your pickup and destination location, select your preferred mode of transportation and set your trip time.</p>
-				</div>
-			</div>
-			<div class="step">
-				<div class="step-icon"><span>2</span></div>
-				<div class="step-content">
-					<h2>Verify Your Mobile Number with OTP</h2>
-					<p>We will send an OTP to your mobile number for verification. Input the OTP to confirm your mobile number and create your account.</p>
-				</div>
-			</div>
-			<div class="step">
-				<div class="step-icon"><span>3</span></div>
-				<div class="step-content">
-					<h2>Find a Travel Buddy</h2>
-					<p>We will match you with other travelers who are headed in the same direction as you. Wait for a match or choose to travel alone.</p>
-				</div>
-			</div>
-			<div class="step">
-				<div class="step-icon"><span>4</span></div>
-				<div class="step-content">
-					<h2>Make an Advance Payment to Confirm Your Booking</h2>
-					<p>You can pay online using a credit/debit card, UPI or other payment methods available in your region to confirm your booking.</p>
-				</div>
-			</div>
-			<div class="step">
-				<div class="step-icon"><span>5</span></div>
-				<div class="step-content">
-					<h2>Enjoy Your Ride</h2>
-					<p>Your driver will arrive at your doorstep before your trip time. Hop on, sit back and enjoy the ride to your destination.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+          <div className="container mt-5">
+            <h1 className="mb-3">Travel Booking Process Flow</h1>
+
+            <div className="row">
+              <div className="col-md-6">
+                <div className="steps-wrapper">
+                  <div className="step">
+                    <div className="step-icon"><span>1</span></div>
+                    <div className="step-content">
+                      <h2>Enter Your Location and Select Your Ride</h2>
+                      <p>Input your pickup and destination location, select your preferred mode of transportation and set your trip time.</p>
+                    </div>
+                  </div>
+                  <div className="step">
+                    <div className="step-icon"><span>2</span></div>
+                    <div className="step-content">
+                      <h2>Verify Your Mobile Number with OTP</h2>
+                      <p>We will send an OTP to your mobile number for verification. Input the OTP to confirm your mobile number and create your account.</p>
+                    </div>
+                  </div>
+                  <div className="step">
+                    <div className="step-icon"><span>3</span></div>
+                    <div className="step-content">
+                      <h2>Find a Travel Buddy</h2>
+                      <p>We will match you with other travelers who are headed in the same direction as you. Wait for a match or choose to travel alone.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                <div className="steps-wrapper">
+                  <div className="step">
+                    <div className="step-icon"><span>4</span></div>
+                    <div className="step-content">
+                      <h2>Make an Advance Payment to Confirm Your Booking</h2>
+                      <p>You can pay online using a credit/debit card, UPI or other payment methods available in your region to confirm your booking.</p>
+                    </div>
+                  </div>
+                  <div className="step">
+                    <div className="step-icon"><span>5</span></div>
+                    <div className="step-content">
+                      <h2>Enjoy Your Ride</h2>
+                      <p>Your driver will arrive at your doorstep before your trip time. Hop on, sit back and enjoy the ride to your destination.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
         </div>
       </Body>
     </>

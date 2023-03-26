@@ -92,3 +92,50 @@ h1,h2,h3,h4,h5,h6{
 
 /* =========== */
 
+
+.steps-wrapper .step {
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 5px 17px -5px #959595;
+    margin-bottom: 21px;
+    padding: 22px;
+    position: relative;
+    border-radius: 7px;
+}
+
+.steps-wrapper .step .step-content h2 {
+    font-size: 18px;
+    color: #556a7f;
+}
+
+.steps-wrapper .step .step-content p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+
+.steps-wrapper .step .step-icon {
+    color: #fff;
+    position: absolute;
+    z-index: 111;
+    height: 30px;
+    width: 30px;
+    background: #556a7f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    right: 8px;
+    bottom: 8px;
+}
+
+.steps-wrapper .step {
+    top: 0;
+    transition: .3s ease-in-out;
+}
+
+.steps-wrapper .step:hover {
+    top: -5px;
+}
