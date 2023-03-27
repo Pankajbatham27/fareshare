@@ -44,35 +44,45 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
-              <h5>What we do?</h5>
-              <p>
-                We make your daily commute pain-free. We provide a one-of-a-kind
-                fixed cab or auto booking service that is available at your
-                doorstep at the time of your choice, ensuring your comfort and
-                affordability. Our prices are really affordable.
-              </p>
-              <hr />
-              <h5>How we do it?</h5>
-              <p>
-                We help you find people to share a ride with. We bring together
-                passengers who are travelling on the same route using public
-                transport and find it difficult to juggle their daily commute
-                with reaching the office on time. By connecting them, we help
-                them share the same route and become travel buddies.
-              </p>
+            <div className="col-md-6 coverPoint">
+              <div className="forHomeAboutDesign">
+                <h5>What we do?</h5>
+                <p>
+                  We make your daily commute pain-free. We provide a one-of-a-kind
+                  fixed cab or auto booking service that is available at your
+                  doorstep at the time of your choice, ensuring your comfort and
+                  affordability. Our prices are really affordable.
+                </p>
+              </div>
 
               <hr />
-              <h5>Who we are?</h5>
-              <p>
-                We are a team of problem-solvers from the tech and finance
-                industries, who grew up watching our mothers juggle daily
-                struggles such as reaching the office on time and managing
-                household chores. After relocating to a cold state and feeling
-                helpless ourselves, we came up with Fare Share - an idea to
-                provide a hassle-free office journey for all hard-working
-                individuals, including our beloved moms.
-              </p>
+
+              <div className="forHomeAboutDesign">
+                <h5>How we do it?</h5>
+                <p>
+                  We help you find people to share a ride with. We bring together
+                  passengers who are travelling on the same route using public
+                  transport and find it difficult to juggle their daily commute
+                  with reaching the office on time. By connecting them, we help
+                  them share the same route and become travel buddies.
+                </p>
+              </div>
+
+
+              <hr />
+              <div className="forHomeAboutDesign">
+                <h5>Who we are?</h5>
+                <p>
+                  We are a team of problem-solvers from the tech and finance
+                  industries, who grew up watching our mothers juggle daily
+                  struggles such as reaching the office on time and managing
+                  household chores. After relocating to a cold state and feeling
+                  helpless ourselves, we came up with Fare Share - an idea to
+                  provide a hassle-free office journey for all hard-working
+                  individuals, including our beloved moms.
+                </p>
+              </div>
+
             </div>
           </div>
         </div>
