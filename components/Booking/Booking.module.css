@@ -56,7 +56,7 @@
     border: none;
     color: #fff;
     max-width: 100%;
-    
+
 }
 
 .inputGroup::before {
@@ -75,9 +75,15 @@
 
 @media only screen and (max-width: 600px) {
 
-.bookingAddress {
-    top: 15px;
-    padding: 0;
-}
+    .bookingAddress {
+        top: 15px;
+        padding: 0;
+    }
 
+    .bookingAddress h5 {
+        font-family: sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px 15px;
+    }
 }

@@ -43,7 +43,7 @@ const Header = () => {
         <div className={`${classes.bgBlack} ${classes.padding4}`}>
           <div className="container">
             <nav
-              className="navbar navbar-expand-lg navbar-dark"
+              className="navbar navbar-expand-lg navbar-light"
               id="navigation"
             >
               <div className="container-fluid">

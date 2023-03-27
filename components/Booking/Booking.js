@@ -140,24 +140,26 @@ const Booking = () => {
         </PlacesAutocomplete>
       )} */}
 
-      <div className="row">
-        <div className="col-md-9">
-          <h5 className="mb-3">Join Fare Share today and let us help you share the ride, save money and eliminate the stress of your daily commute!</h5>
-        </div>
-        <div className="col-md-3">
-          <div>
-            <button className={classes.customButton}>
-              <div className="d-flex justify-content-between">
-                <div><Link href='https://book.fareshare.in'><a target='_blank' className="text-light">BOOK NOW</a></Link></div>
-                <div>
-                  <i className="fa fa-solid fa-arrow-right"></i>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-9">
+            <h5 className="mb-3">Join Fare Share today and let us help you share the ride, save money and eliminate the stress of your daily commute!</h5>
+          </div>
+          <div className="col-md-3">
+            <div>
+              <button className={classes.customButton}>
+                <div className="d-flex justify-content-between">
+                  <div><Link href='https://book.fareshare.in'><a target='_blank' className="text-light">BOOK NOW</a></Link></div>
+                  <div>
+                    <i className="fa fa-solid fa-arrow-right"></i>
+                  </div>
                 </div>
-              </div>
-            </button>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      
+
 
     </div>
   );

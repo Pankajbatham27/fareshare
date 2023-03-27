@@ -10,6 +10,9 @@ h2.heading {
     margin-bottom: 20px;
 }
 
+body {
+    color: #333333;
+}
 
 .yellow-color {
     background-color: #ffcc00;
@@ -194,15 +197,23 @@ h6 {
     }
 
     .hero-section h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .hero-section h3 {
 
-        font-size: 24px;
+        font-size: 20px;
     }
+
     .mt-5.background-drop {
         margin-top: 0px !important;
+    }
+
+    .hero-section h1 br {
+        display: none;
+    }
+    .process-flow ul:before {
+        display: none;
     }
 }
 
