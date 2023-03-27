@@ -7,6 +7,7 @@ import PlacesAutocomplete, {
 } from "react-places-autocomplete";
 import dynamic from "next/dynamic";
 import Script from "next/script";
+import Link from "next/link";
 
 const Booking = () => {
   const [scriptLoaded, setScriptLoaded] = useState(false);
@@ -42,7 +43,7 @@ const Booking = () => {
   return (
     <div className={classes.bookingAddress}>
 
-      <Script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiqx0MaSS3QybaU4NH9iehcbro6r92nD8&libraries=places" onLoad={() => {
+      {/* <Script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiqx0MaSS3QybaU4NH9iehcbro6r92nD8&libraries=places" onLoad={() => {
         setScriptLoaded(true);
       }} />
 
@@ -63,7 +64,6 @@ const Booking = () => {
                   })}
                 />
               </div>
-              {/* <p>Lat: <span>{coordinates.lat}</span> &nbsp; Long: <span>{coordinates.lng}</span></p> */}
 
               <div className="autocomplete-dropdown-container">
                 {loading && <div>Loading...</div>}
@@ -111,7 +111,6 @@ const Booking = () => {
                   })}
                 />
               </div>
-              {/* <p>Lat: <span>{coordinatesDrop.lat}</span> &nbsp; Long: <span>{coordinatesDrop.lng}</span></p> */}
 
               <div className="autocomplete-dropdown-container">
                 {loading && <div>Loading...</div>}
@@ -139,18 +138,27 @@ const Booking = () => {
             </div>
           )}
         </PlacesAutocomplete>
-      )}
+      )} */}
 
-      <div>
-        <button className={classes.customButton}>
-          <div className="d-flex justify-content-between">
-            <div>BOOK NOW</div>
-            <div>
-              <i className="fa fa-solid fa-arrow-right"></i>
-            </div>
+      <div className="row">
+        <div className="col-md-9">
+          <h5 className="mb-3">Join Fare Share today and let us help you share the ride, save money and eliminate the stress of your daily commute!</h5>
+        </div>
+        <div className="col-md-3">
+          <div>
+            <button className={classes.customButton}>
+              <div className="d-flex justify-content-between">
+                <div><Link href='https://book.fareshare.in'><a target='_blank' className="text-light">BOOK NOW</a></Link></div>
+                <div>
+                  <i className="fa fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </button>
           </div>
-        </button>
+        </div>
       </div>
+      
+
     </div>
   );
 };

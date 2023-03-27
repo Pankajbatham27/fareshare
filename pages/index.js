@@ -185,8 +185,6 @@ export default function Home() {
                 </p>
               </div>
 
-
-
             </div>
 
             <div className="col-md-4">
