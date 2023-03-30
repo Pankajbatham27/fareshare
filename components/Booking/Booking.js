@@ -147,14 +147,16 @@ const Booking = () => {
           </div>
           <div className="col-md-3">
             <div>
+            <Link href='https://book.fareshare.in'>
               <button className={classes.customButton}>
                 <div className="d-flex justify-content-between">
-                  <div><Link href='https://book.fareshare.in'><a target='_blank' className="text-light">BOOK NOW</a></Link></div>
+                  <div><a target='_blank' className="text-light">BOOK NOW</a></div>
                   <div>
                     <i className="fa fa-solid fa-arrow-right"></i>
                   </div>
                 </div>
               </button>
+              </Link>
             </div>
           </div>
         </div>
