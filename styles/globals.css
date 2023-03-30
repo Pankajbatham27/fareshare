@@ -267,6 +267,16 @@ h6 {
     .hero-section {
         padding: 39px 23px;
     }
+    .forHomeAboutDesign {
+        background: #fff;
+        padding: 23px;
+        box-shadow: 0px 22px 12px -16px #00000080;
+        min-width: 308px;
+        margin: 0px 10px;
+        background-image: linear-gradient(157deg, #000000, black);
+        color: #fff;
+        border-radius: 17px;
+    }
 }
 
 
@@ -329,13 +339,3 @@ ul.navbar-nav li {
     margin-right: 18px;
 }
 
-.forHomeAboutDesign {
-    background: #fff;
-    padding: 23px;
-    box-shadow: 0px 22px 12px -16px #00000080;
-    min-width: 308px;
-    margin: 0px 10px;
-    background-image: linear-gradient(157deg, #000000, black);
-    color: #fff;
-    border-radius: 17px;
-}
