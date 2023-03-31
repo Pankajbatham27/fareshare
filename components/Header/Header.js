@@ -4,6 +4,7 @@ import classes from "./Header.module.css";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const router = useRouter();
@@ -12,6 +13,13 @@ const Header = () => {
     ssr: false,
   });
 
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent = window.navigator.userAgent;
+    setIsMobile(/Mobi/.test(userAgent));
+  }, []);
 
 
   return (
@@ -43,22 +51,11 @@ const Header = () => {
         <div className={`${classes.bgBlack} ${classes.padding4}`}>
           <div className="container">
             <nav
-              className="navbar navbar-expand-lg navbar-light"
+              className={`navbar navbar-expand-lg ${isMobile ? 'navbar-dark' : 'navbar-light'} `}
               id="navigation"
             >
               <div className="container-fluid">
-                {/* <a className="navbar-brand" href="#">Navbar</a> */}
-                {/* <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button> */}
+                
                 <div className="" id="navbarNav">
                   <ul className="navbar-nav">
                     <li className="nav-item">

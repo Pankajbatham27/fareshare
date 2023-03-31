@@ -1,12 +1,22 @@
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import Body from "../components/Body/Body";
 import Booking from "../components/Booking/Booking";
 import Hero from "../components/Hero/Hero";
+import HeroMobile from "../components/Hero/HeroMobile";
 // import Place from "../components/Place/Place";
 import taxi_image from "./../public/taxi.png";
 import woman_image from "./../public/woman.png";
 
 export default function Home() {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent = window.navigator.userAgent;
+    setIsMobile(/Mobi/.test(userAgent));
+  }, []);
+
   return (
     <>
       <Head>
@@ -22,7 +32,13 @@ export default function Home() {
       </Head>
 
       <Body>
+
+      {isMobile ? (
+        <HeroMobile />
+      ) : (
         <Hero />
+      )}
+        
         <Booking />
 
         <div className="container mt-5">
