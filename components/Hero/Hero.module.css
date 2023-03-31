@@ -36,7 +36,7 @@
 .gradientText:first-child {
     background: #fff;
     -webkit-background-clip: text;
-    animation: first 15s infinite;
+    animation: first 9s infinite;
 
    
 }
@@ -44,7 +44,7 @@
 .gradientText:nth-child(2) {
     background: #fff;
     -webkit-background-clip: text;
-    animation: second 15s infinite;
+    animation: second 9s infinite;
 
     
 }
@@ -52,7 +52,7 @@
 .gradientText:last-child {
     background: #fff;
     -webkit-background-clip: text;
-    animation: thired 15s infinite;
+    animation: thired 9s infinite;
 }
 
 .clipBg {
