@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -9,9 +10,9 @@ const Footer = () => {
                         <div className="col-md-6">
                             <p className={`mb-0 text-white ${classes.m_text_center}`}>Copyright ©FareShare. All Rights Reserved</p>
                         </div>
-                        {/* <div className="col-md-6">
-                            <p className={`mb-0 text-white text-end ${classes.m_text_center}`}>Designed & developed by Office</p>
-                        </div> */}
+                        <div className="col-md-6">
+                            <p className={`mb-0 text-white text-end ${classes.m_text_center}`}><Link href={'/sitemap.xml'}>Sitemap</Link></p>
+                        </div>
                     </div>
                 </div>
             </div>
