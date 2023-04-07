@@ -23,6 +23,7 @@ export default function Home() {
         <title>Doorstep-to-Office Commuting Made Easy with Fare Share</title>
         <meta name="description" content="Say goodbye to the stress and hassle of daily commuting with Fare Share. We offer reliable and convenient office pickup and drop service from your doorstep, so you can focus on what matters most. Sign up today and experience hassle-free commuting!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta  name="simpledcver"  content="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkb21haW4iOiJmYXJlc2hhcmUuY29tIiwiZXhwIjoxNjgxNDMwNDAwfQ.Y64F2QRisnW9wNkex4xO_5cy6VRW1jQ9yPBk0yxltXM" />
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
